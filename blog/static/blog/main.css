@@ -1,5 +1,6 @@
 body {
-  background: #fafafa;
+  /* background: #fafafa; */
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
   color: #333333;
   margin-top: 5rem;
 }
@@ -8,12 +9,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+.navbar-brand {
+  font-weight: 600;
+}
+
 ul {
   margin: 0;
 }
 
 .bg-steel {
-  background-color: #0094ff;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
 }
 
 .site-header .navbar-nav .nav-link {
